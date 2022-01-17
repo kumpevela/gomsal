@@ -1,0 +1,8 @@
+<div>
+    <h1>{{gallery.title}}</h1>
+    <ul>
+        <li *ngFor="let img of gallery.imgs">
+            <img src="{{img.src}}" alt="{{img.alt}}">
+        </li>
+    </ul>
+</div>

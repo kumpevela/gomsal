@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    .container-description {
+        border: 2px solid black;
+        padding: 10px 20px;
+    }
+}
+
+.title {
+    margin-left: 20px;
+}

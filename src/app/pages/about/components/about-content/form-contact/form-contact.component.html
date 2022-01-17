@@ -1,0 +1,64 @@
+<h2>TE LEEMOS</h2>
+
+
+<div class="text">
+  <p>En <b>Gomsal</b> nos encanta que nos hables.</p> 
+  <p>Asi que contacta con nosotros si quereis</p>
+  <p>vernos en alguna ciudad, para preguntar cualquier duda</p>
+  <p>hacernos llegar cualquier tpo de sugerencia</p>
+  <p>¡Nos ayudarás a mejorar!</p>
+</div>
+
+<form novalidate (ngSubmit)="onSubmit()" [formGroup]="contactForm">
+<div class="formulario">
+
+    <label for="name">Asunto:</label>
+    <input class= "matter" type="text" id="name" formControlName="name" />
+
+    <div *ngIf="!contactForm.get('name')?.valid &&
+        (contactForm.get('name')?.dirty || submitted)">
+      Has introducido mal tu nombre
+    </div>
+
+    <label for="name">Nombre:</label>
+    <input class= "name_name" type="text" id="name" formControlName="name" />
+
+    <div *ngIf="!contactForm.get('name')?.valid &&
+        (contactForm.get('name')?.dirty || submitted)">
+      Has introducido mal tu nombre
+    </div>
+
+	
+
+
+    <label for="email">Correo Electronico:</label>
+    <input class= "mail" type="email" id="email" formControlName="email" />
+
+    <div *ngIf="!contactForm.get('email')?.valid &&
+        (contactForm.get('email')?.dirty || submitted)">
+      Has introducido mal tu correo electronico
+    </div>
+
+
+
+    <label for="Number">Nº Teléfono:</label>
+    <input class= "phone" type="number" id="number" formControlName="number" />
+
+    <div *ngIf="!contactForm.get('number')?.valid &&
+        (contactForm.get('number')?.dirty || submitted)">
+    </div>
+
+ 
+
+    <label class= "message"for="commentary">Mensaje:</label>
+    <input class= "comment" type="text" id="commentary" formControlName="commentary" />
+
+    <div *ngIf="!contactForm.get('commentary')?.valid &&
+        (contactForm.get('commentary')?.dirty || submitted)">
+      No has introducido nada 
+    </div>
+
+  </div>
+	<button class= "send" type="submit" [disabled]="!contactForm?.valid">Enviar</button>
+
+</form>

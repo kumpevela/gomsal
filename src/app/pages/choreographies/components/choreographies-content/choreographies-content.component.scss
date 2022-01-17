@@ -1,0 +1,55 @@
+img {
+    width: 200px; height: 200px;
+    max-width: 100%;
+}
+
+.container_dance {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    padding: 40px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 25px;
+    color: rgba(0, 21, 92, 0.938);
+    font-family: cursive;
+}
+
+.P {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container_text {
+    text-align: center;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between  ;
+}
+
+body{
+    background-color: #00bfa5;
+}
+
+.imgRedonda {
+    width: 300px;
+    height: 258px;
+    border-radius: 84px;
+}
+
+.imgRedonda_one {
+    width: 300px;
+    height: 258px;
+    border-radius: 104px;
+}
+
+.imgRedonda_two {
+    width: 300px;
+    height: 258px;
+    border-radius: 77px;
+}
+
+.text {
+    margin: 10px;
+}

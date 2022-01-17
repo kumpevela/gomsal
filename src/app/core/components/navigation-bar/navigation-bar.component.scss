@@ -1,0 +1,17 @@
+nav {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0px;
+        background-color: #3e0f32;
+        margin: 0;
+        padding: 10px;
+        li {
+            max-width: 80px;
+            a { 
+               width: 100%; 
+            }
+        }
+    }
+}
