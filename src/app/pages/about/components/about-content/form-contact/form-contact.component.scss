@@ -8,13 +8,14 @@
 .phone {
     border: none;
     padding-bottom: 5px;
-    width:20%;
+    width:30%;
     margin-bottom: 10px;
 }
 
 .formulario {
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
 .mail {
@@ -25,16 +26,46 @@
 
 .name_name {
     border: none;
-    width: 15%;
+    width: 30%;
     margin-bottom: 10px;
 }
 
 .matter {
     border: none;
-    width: 10%;
+    width: 30%;
     margin-bottom: 10px;
 }
 
 .send {
     margin-top: 20px;
+    margin: 10px;
+}
+
+.body {
+    margin: 5px;
+}
+
+.text {
+    margin: 10px;
+}
+
+.h2 {
+    margin: 10px;
+}
+
+.title {
+    margin: 10px;
+}
+
+.li {
+    margin-top: 200px;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.network {
+    justify-content: space-around;
+    display: flex;
+    margin-top: 200px;
+    list-style: none;
 }
