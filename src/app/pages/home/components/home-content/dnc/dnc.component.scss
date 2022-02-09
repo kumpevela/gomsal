@@ -2,24 +2,38 @@
     display: flex;
     justify-content: space-between;
     color: black;
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
     .h3 {
         margin-left: 20px;
     }
 .title {
     margin-left: 20px;
 }
-    .container-description {
-        border: 2px solid black;
+
+.container-description {
         padding: 10px 20px;
         text-align: center;
         justify-content: space-between;
     }
 }
 
+
+
 .dancers {
-    width: 300px;
-    height: 300px;
     border-radius: 100px;
-    padding: 20px;
+    max-width: 100%;
 }
 
+@media (max-width: 484px) {
+    .container {
+        flex-direction: column;
+    }
+    .container-description {
+        width: 100%;
+    }
+}
