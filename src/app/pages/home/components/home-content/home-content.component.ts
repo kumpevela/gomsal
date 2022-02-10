@@ -25,7 +25,7 @@ export class HomeContentComponent implements OnInit {
     this.dnc = {
       title: 'Nuestras bailarinas', 
       img: {
-        src: '../../../assets/images/gallery/balletOne.jpg',
+        src: '../../../assets/images/bailarinas.png',
         alt: 'Bailarinas'
       }, 
       titleDescription: 'Somos bailarinas',

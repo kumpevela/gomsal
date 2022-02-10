@@ -34,8 +34,9 @@ h3 {
     margin-top: 10px;
 }
 
-@media (max-width: 484px) {
+@media (max-width: 584px) {
     .container {
+        text-align: center;
         flex-direction: column;
     }
     .container-description {
