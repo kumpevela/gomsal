@@ -66,12 +66,13 @@
 .network {
     justify-content: space-around;
     display: flex;
-    margin-top: 400px;
+    margin-top: 300px;
     list-style: none;
 }
 
 .google_maps {
     margin: 10px;
+    max-height: 900px;
     max-width: 80%;
 }
 
@@ -79,12 +80,16 @@
     border-radius: 300px;
 }
 
+.maps {
+    text-align: center;
+}
+
 .title {
     font-size: 20px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 200px) {
     .google_maps {
-        width: 100%;
+        max-width: 80%;
     }
 }
