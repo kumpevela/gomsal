@@ -69,3 +69,22 @@
     margin-top: 400px;
     list-style: none;
 }
+
+.google_maps {
+    margin: 10px;
+    max-width: 80%;
+}
+
+.iframe {
+    border-radius: 300px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+@media (max-width: 420px) {
+    .google_maps {
+        width: 100%;
+    }
+}
