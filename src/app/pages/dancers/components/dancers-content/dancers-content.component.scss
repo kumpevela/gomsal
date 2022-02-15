@@ -1,29 +1,61 @@
-img {
-    width: 226px; height: 250px;
-    max-width: 100%;
-}
 .container_dance {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
     padding: 40px; 
-    align-items: center;   
+    align-items: center; 
 }
-h1 {
-    font-size: 25px;
-    color: rgba(0, 21, 92, 0.938);
-}
-.container_text {
-    text-align: center;
-    letter-spacing: 4px;
+
+.container_img {
     display: flex;
-    justify-content: space-between  ;
+    align-items: center;
+    flex-direction: column;
+    width: 200%;
+    border-radius: 300px;
+}
+
+.p {
+    font-size: 50px;
 }
 
 .imgRedonda {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
+    width: 200%;
+    border-radius: 300px;
+    max-width: 50%;
+}
+
+@media (max-width: 584px) {
+    .container_dance {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container_img {
+        width: 100%;
+    }
+}
+
+/* p{  
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgba(0, 21, 92, 0.938);
+    margin-bottom: 10px;
+}
+.container_text {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; 
+    width: 50%;
+}
+
+.imgRedonda {
+    display: flex;
+    border-radius:300px;
+    width: 200%;
 }
 
 .text {
@@ -31,13 +63,29 @@ h1 {
 }
 
 .imgRedonda_One {
-    width: 300px;
-    height: 220px;
-    border-radius: 150px;
+    display: flex;
+    border-radius: 175px;
+    max-width: 320px;
 }
 
 .imgRedonda_Two {
-    width: 300px;
-    height: 220px;
+    display: flex;
     border-radius: 150px;
+    max-width: 100%;
 }
+
+@media (max-width: 584px) {
+    .container_text {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .container_text {
+        flex-direction: column;
+        width: 100%;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+ */
